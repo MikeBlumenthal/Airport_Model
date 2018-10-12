@@ -6,4 +6,14 @@ public class Passenger {
         this.name = name;
         this.wallet = wallet;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getWallet() {
+        return wallet;
+    }
+
+
 }
